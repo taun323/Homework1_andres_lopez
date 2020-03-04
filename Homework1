@@ -20,7 +20,7 @@ print("The dragon with", dragon_hp, "hp attacks out hero with", hero_hp, "hp")
 
 # add a While for an infinite block
 
-while hero_hp > 0 or dragon_hp > 0:
+while hero_hp >= 0 or dragon_hp >= 0:
 
     dragon_attack = random.randint(1, dragon_max_dmg)
 
